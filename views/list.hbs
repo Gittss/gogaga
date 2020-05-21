@@ -1,0 +1,25 @@
+<div style="text-align:center; padding: 2%;">
+    <h2>{{title}}</h2>
+    <div style="text-align:center; padding: 2%;">
+        <a class="butt" href="/gogaga/add">Add new user</a>
+        <a class="butt" href="/">Back to Home</a>
+    </div>
+</div>
+<div style="text-align:center; padding-bottom: 35%;">
+    <table>
+    <thread>
+        <tr>
+            <th>Name</th>
+            <th>Mobile no.</th>
+        </tr>
+    </thread>
+    <tbody>
+        {{#each user}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.mobile}}</td>
+        </tr>
+        {{/each}}
+    </tbody >
+    </table>
+</div>

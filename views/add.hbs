@@ -1,0 +1,27 @@
+<div style="text-align:center; padding: 2%;">
+    <h2>{{title}}</h2>
+    <div style="text-align:center; padding:2%;">
+        <a class="butt" href="/gogaga/list">View users</a>
+        <a class="butt" href="/">Back to Home</a>
+    </div>
+</div>
+<div style="text-align:center; padding-bottom: 35%;">
+    <form style="background-color: rgba(0,0,0,0.4); color:white; padding:20px;" action="/gogaga/add" method="POST">
+    <div class="form-group">
+        <label>Name</label>
+        <input name="name" placeholder="enter name" value="{{user.name}}">
+        <div style="color: red;">
+            {{user.nameError}}
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Mobile</label>
+        <input name="mobile" placeholder="enter mobile number" value="{{user.mobile}}">
+        <div style="color: red;">
+            {{user.mobileError}}
+        </div>
+    </div>
+
+    <button class="butt" type="submit"><i class="fa fa-send"></i>Submit </button>
+    </form>
+</div>

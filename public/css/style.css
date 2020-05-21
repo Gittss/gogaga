@@ -1,0 +1,32 @@
+body,html{
+    background-image: url("https://lh3.googleusercontent.com/66rcSwfM4ZvgDRp0Ehjb7VMUt4AiOfwmLuhmMQuV6wX8uR2Z_a2eCSz7qDBnA17iYg=s360-rw");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fit;
+    height: 100%;
+    width: 100%;
+}
+.butt{
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-shadow: 2px 4px 5px #666666;
+}
+body a{color: black;}
+body a:hover{
+    color: white;
+    text-decoration: none;
+}
+.foot{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+.foot a{color: white;}
+.foot a:hover{color: yellow; text-decoration: none;}
+table{
+    margin-left: 50px;
+    text-align: center;
+}
